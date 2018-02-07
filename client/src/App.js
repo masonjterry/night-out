@@ -6,7 +6,6 @@ import Nav from "./pages/Main";
 import Login from "./pages/Login";
 import Board from "./pages/Board";
 import NewUser from "./pages/NewUser";
-import Books from "./pages/Books";
 import Detail from "./pages/Detail";
 
 
@@ -39,7 +38,6 @@ class App extends React.Component {
             <Route exact path="/board" component={Board} />
             <Route exact path="/newuser" component={NewUser} />
             <Route exact path="/activities/:id" component={Detail} />
-            <Route exact path="/books" component={Books} />
             <Route exact path="/books/:id" component={Detail} />
 
           </Switch>

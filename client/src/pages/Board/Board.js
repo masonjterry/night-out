@@ -241,7 +241,7 @@ export default class Board extends React.Component {
                           </button>
 
                         <p style={style.elementStyle}><strong>Votes: </strong>{activity.lovers.length}</p>
-                        <p style={style.elementStyle}><strong>Lovers: </strong>{activity.lovers.map( lover => (lover+" "))}</p>
+                        <p style={style.elementStyle}><strong>Likes: </strong>{activity.lovers.map( lover => (lover+" "))}</p>
                         <p style={style.elementStyle}><strong>Description: </strong>{activity.activityDescription}</p>
                         <p style={style.elementStyle}><strong>Time: </strong>{activity.activityTime}</p>
                         <p style={style.elementStyle}><strong>Location: </strong>{activity.locationSimple}</p>
