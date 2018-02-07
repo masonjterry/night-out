@@ -2,17 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const style = {
-  color: "white",
   height:"100vh",
   textAlign: "center",
   btnStyle: {
     backgroundColor: "#607D8B",
     margin: 10,
     textShadow: "0 0"
-  },
-  backgroundImage: `url("https://c.pxhere.com/photos/32/4c/glass_drink_celebration_cheer_hand-14713.jpg!d")`,
-  backgroundPosition: "center",
-  textShadow: "2px 2px 5px  black"
+  }
 }
 
 export default class Home extends React.Component {
